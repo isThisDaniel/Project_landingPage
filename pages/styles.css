@@ -1,0 +1,52 @@
+/* This is the entire page */
+html{
+    background-color: black;
+    margin: 0px 100px
+}
+div{
+    border:2px solid red;
+    
+}
+
+/* This is the first box and the boxes within it */
+.flex-container{
+     display: flex; /* horizontal */
+     background-color: darkblue;
+     flex: 1;
+}
+.flex-container div{
+    color: white;
+    font-size: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.flex-container .header{
+    font-weight: bold;
+    color: white;
+    padding-left: 55px;
+    padding-right: 200px;
+}
+
+
+/* This is the second box */
+.flex-containerTwo{
+    background-color: blue;
+    display:flex;
+    color:white
+}
+
+/* Third Box */
+.flex-containerThree{
+    background-color: white;
+    
+}
+.flex-containerThree .threeRandomBoxes div{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.flex-containerThree #RandomInfo{
+    text-align:center ;
+    font-weight: bold;
+}
